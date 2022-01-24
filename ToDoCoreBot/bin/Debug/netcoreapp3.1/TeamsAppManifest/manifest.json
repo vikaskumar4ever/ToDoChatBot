@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "version": "1.0.0",
+  "id": "f5a3068d-64d6-49c4-87c8-ab49e1d22229",
+  "packageName": "com.celebal.teams.taskmodule",
+  "developer": {
+    "name": "Celebal Technologies",
+    "websiteUrl": "https://www.celebaltech.com/",
+    "privacyUrl": "https://www.celebaltech.com/privacy",
+    "termsOfUseUrl": "https://www.celebaltech.com/terms-conditions"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "ToDoTaskBot",
+    "full": "To Do Task Bot Application"
+  },
+  "description": {
+    "short": "To Do Bot Application",
+    "full": "To Do Task Bot Application"
+  },
+  "accentColor": "#FFFFFF",
+  "composeExtensions": [
+    {
+      "botId": "e9470d8a-143a-475e-9c24-36431159dfcd",
+      "canUpdateConfiguration": true,
+      "commands": []
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": []
+}
